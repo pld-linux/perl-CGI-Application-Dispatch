@@ -1,10 +1,12 @@
 #
+# Conditional build:
 %bcond_with	tests	# do perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	CGI
 %define		pnam	Application-Dispatch
 Summary:	CGI::Application::Dispatch - dispatch requests to CGI::Application based objects
+Summary(pl):	CGI::Application::Dispatch - przesy³anie ¿±dañ do obiektów opartych na CGI::Application
 Name:		perl-CGI-Application-Dispatch
 Version:	2.03
 Release:	1
@@ -25,7 +27,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 CGI::Application::Dispatch - dispatch requests to CGI::Application
-based objects
+based objects.
+
+%description -l pl
+CGI::Application::Dispatch s³u¿y do przesy³ania ¿±dañ do obiektów
+opartych na CGI::Application.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -42,7 +48,6 @@ based objects
 rm -rf $RPM_BUILD_ROOT
 
 ./Build install
-
 
 %clean
 rm -rf $RPM_BUILD_ROOT

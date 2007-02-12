@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Application-Dispatch
 Summary:	CGI::Application::Dispatch - dispatch requests to CGI::Application based objects
-Summary(pl):	CGI::Application::Dispatch - przesy³anie ¿±dañ do obiektów opartych na CGI::Application
+Summary(pl.UTF-8):   CGI::Application::Dispatch - przesyÅ‚anie Å¼Ä…daÅ„ do obiektÃ³w opartych na CGI::Application
 Name:		perl-CGI-Application-Dispatch
 Version:	2.03
 Release:	1
@@ -29,8 +29,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 CGI::Application::Dispatch - dispatch requests to CGI::Application
 based objects.
 
-%description -l pl
-CGI::Application::Dispatch s³u¿y do przesy³ania ¿±dañ do obiektów
+%description -l pl.UTF-8
+CGI::Application::Dispatch sÅ‚uÅ¼y do przesyÅ‚ania Å¼Ä…daÅ„ do obiektÃ³w
 opartych na CGI::Application.
 
 %prep

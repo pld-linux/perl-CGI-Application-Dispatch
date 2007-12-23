@@ -8,12 +8,12 @@
 Summary:	CGI::Application::Dispatch - dispatch requests to CGI::Application based objects
 Summary(pl.UTF-8):	CGI::Application::Dispatch - przesyłanie żądań do obiektów opartych na CGI::Application
 Name:		perl-CGI-Application-Dispatch
-Version:	2.03
+Version:	2.10
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3776f7577f6aac0782afe8b87aef484c
+# Source0-md5:	91055684b6cdaed23fb2f9ad1a8c1c34
 URL:		http://search.cpan.org/dist/CGI-Application-Dispatch/
 BuildRequires:	perl-CGI-Application
 BuildRequires:	perl-Exception-Class

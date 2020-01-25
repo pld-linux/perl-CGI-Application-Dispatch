@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# do perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	CGI
 %define		pnam	Application-Dispatch
 Summary:	CGI::Application::Dispatch - dispatch requests to CGI::Application based objects
